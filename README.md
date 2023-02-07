@@ -18,3 +18,8 @@ The Accordion component receives an array of items (title and content) from the 
 `Search Widget`
 The search term entered in the Search component textfield initiates an API request to Wikipedia, which ultimately returns the results.
 
+`useEffect()` is configured in 3 ways
+To run some code:
+1. When component is rendered `for the first time only.`
+2. When component is rendered `for the first time and whenever it re-renders`
+3. When component is rendered `for the first time and (whenever it re-rendered and some piece of data has changed).`
