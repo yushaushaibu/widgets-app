@@ -42,6 +42,5 @@ useEffect(() => {
     const search = async () => {
         await axios.get('URL')
     };
-
     search();
 }, [term])
