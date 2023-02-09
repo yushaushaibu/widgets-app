@@ -27,6 +27,9 @@ To run some code:
 2. When component is rendered `for the first time and whenever it re-renders`
 3. When component is rendered `for the first time and (whenever it re-rendered and some piece of data has changed).`
 
+
+** You need to tell useEffect() when to execute the code in its first argument. i.e the callback arrouw function. The second argument i.e either ([] or [data] or ..nothing..) when the codes in the first argument to be executed.
+
 1. `[]` code runs at intial (first) render | `componentDidMount()`
 2. `[data]` code runs at initial render, and after every rerender if data has changed since last update | `componentDidUpdate()`
 3. `..nothing..` code runs at initial render, runs after every rerender
