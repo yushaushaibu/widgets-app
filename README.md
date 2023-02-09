@@ -44,3 +44,8 @@ useEffect(() => {
     };
     search();
 }, [term])
+
+`Security in React | XSS Attack`
+Anytime you a take a string from a third party API, you could be introducing a security hole into your application called XSS (Cross Site Scripting) attack.
+
+** use `dangerouslySetInnerHTML` only when you trust the third party providing you with the API data. Otherwise DO NOT use dangerouslySetInnerHTML in your application.
