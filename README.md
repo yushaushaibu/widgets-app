@@ -1,7 +1,7 @@
-`Widgets App`
+`WIDGETS APP`
 Creating distinct or separate panels with React Hooks that are integrated to form the widgets app.
 
-`Accordion Widget`
+`ACCORDION WIDGET`
 The Accordion component receives an array of items (title and content) from the App component as props and renders the items' styled content. When a user clicks on the title, the accordion can be expanded to display content or collapsed.
 
 1. Create array of items and pass it down as `props`
@@ -15,11 +15,18 @@ The Accordion component receives an array of items (title and content) from the 
 `useEffect()` allows to use something like `component lifecycle` in functional component
 `useRef()` function that allows the creation of `ref` in functional component.
 
-`Search Widget`
+
+`SEARCH WIDGET`
 The search term entered in the Search component textfield initiates an API request to Wikipedia, which ultimately returns the results.
 
-`useEffect()` is configured in 3 ways
+`useEffect()` useEffect runs automatically when a component is created. It combines the functionality of componentDidMount() and componentDidUpdate().
+
+`useEffect() is configured in 3 ways`
 To run some code:
 1. When component is rendered `for the first time only.`
 2. When component is rendered `for the first time and whenever it re-renders`
 3. When component is rendered `for the first time and (whenever it re-rendered and some piece of data has changed).`
+
+1. `[]` code runs at intial (first) render | `componentDidMount()`
+2. `[data]` code runs at initial render, and after every rerender if data has changed since last update | `componentDidUpdate()`
+3. `..nothing..` code runs at initial render, runs after every rerender
