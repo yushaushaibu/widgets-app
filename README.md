@@ -35,3 +35,13 @@ To run some code:
 3. `..nothing..` code runs at initial render, runs after every rerender
 
 ** [] or [data] is commonly used in useEffect() implementation. Also the array in the second argument can have multiple data i.e [data1, data2] and the cb function is rerun if any of the data changes.
+
+`How to make API request in useEffect`
+Method 1:
+useEffect(() => {
+    const search = async () => {
+        await axios.get('URL')
+    };
+
+    search();
+}, [term])
