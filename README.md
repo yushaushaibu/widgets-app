@@ -28,8 +28,10 @@ To run some code:
 3. When component is rendered `for the first time and (whenever it re-rendered and some piece of data has changed).`
 
 
-** You need to tell useEffect() when to execute the code in its first argument. i.e the callback arrouw function. The second argument i.e either ([] or [data] or ..nothing..) when the codes in the first argument to be executed.
+** You need to tell useEffect() when to execute the code in its first argument. i.e the callback arrouw function. The second argument i.e either ([] or [data] or ..nothing..) controls when the codes in the first argument to be executed.
 
 1. `[]` code runs at intial (first) render | `componentDidMount()`
 2. `[data]` code runs at initial render, and after every rerender if data has changed since last update | `componentDidUpdate()`
 3. `..nothing..` code runs at initial render, runs after every rerender
+
+** [] or [data] is commonly used in useEffect() implementation. Also the array in the second argument can have multiple data i.e [data1, data2] and the cb function is rerun if any of the data changes.
