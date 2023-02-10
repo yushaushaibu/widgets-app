@@ -49,3 +49,6 @@ useEffect(() => {
 Anytime you a take a string from a third party API, you could be introducing a security hole into your application called XSS (Cross Site Scripting) attack.
 
 ** use `dangerouslySetInnerHTML` only when you trust the third party providing you with the API data. Otherwise DO NOT use dangerouslySetInnerHTML in your application.
+
+`Clean Up Function`
+useEffect callback function can return another function that is specifically used for clean up. setTimeout() can be cleared in the clean up function.
