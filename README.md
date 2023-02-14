@@ -52,3 +52,5 @@ Anytime you a take a string from a third party API, you could be introducing a s
 
 `Clean Up Function`
 useEffect callback function can return another function that is specifically used for clean up. setTimeout() can be cleared in the clean up function.
+
+`DROPDOWN WIDGET`
