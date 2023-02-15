@@ -54,3 +54,4 @@ Anytime you a take a string from a third party API, you could be introducing a s
 useEffect callback function can return another function that is specifically used for clean up. setTimeout() can be cleared in the clean up function.
 
 `DROPDOWN WIDGET`
+Shows list of options. When a user clicks on the dropdown, a few options will appear. The selected options recolor a text on the website so that it exactly matches the option's name in the list.
