@@ -55,3 +55,11 @@ useEffect callback function can return another function that is specifically use
 
 `DROPDOWN WIDGET`
 Shows list of options. When a user clicks on the dropdown, a few options will appear. The selected options recolor a text on the website so that it exactly matches the option's name in the list.
+
+`Lesson`
+- When an event handler is added to an element in a component, the component can only listen to events on that specific element. In this project, we're attempting to make the component listen to events in elements outside of it.
+
+`Event Bubbling`
+Event Bubbling is a concept in the DOM. It happens when an element receives an event, and that event bubbles up (or you can say is transmitted or propagated) to its parent and ancestor elements in the DOM tree until it gets to the root element.
+
+When you click on an element, for instance, it appears as though you have also clicked on the parent element all the way up to its root.
