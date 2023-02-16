@@ -63,6 +63,8 @@ Shows list of options. When a user clicks on the dropdown, a few options will ap
 
 - `contains()` all DOM elements have this property. It enables you to determine whether one DOM element is contained inside another.
 
+- How to toggle on or off component in React. To remove/hide component from the DOM, useEffect() cleanup function is used to hide or remove component from the DOM.
+
 `Event Bubbling`
 is a concept in the DOM. It happens when an element receives an event, and that event bubbles up to its parent and ancestor elements in the DOM tree until it gets to the root element.
 
@@ -71,4 +73,4 @@ When you click on an element, for instance, it appears as though you have also c
 `useRef`
 gives direct reference to a DOM element in React, instead of using the `document.getElementBy()` or `document.querySelector()`.
 
-`ref.current` provides access to the div element we are attempting to access
+`ref.current` provides access to the div element we are attempting to access.
