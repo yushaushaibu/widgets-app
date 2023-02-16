@@ -74,3 +74,7 @@ When you click on an element, for instance, it appears as though you have also c
 gives direct reference to a DOM element in React, instead of using the `document.getElementBy()` or `document.querySelector()`.
 
 `ref.current` provides access to the div element we are attempting to access.
+
+
+
+`THE TRANSLATE WIDGET`
