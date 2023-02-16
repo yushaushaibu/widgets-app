@@ -59,7 +59,16 @@ Shows list of options. When a user clicks on the dropdown, a few options will ap
 `Lesson`
 - When an event handler is added to an element in a component, the component can only listen to events on that specific element. In this project, we're attempting to make the component listen to events in elements outside of it.
 
+- Event handlers using the native addEventListener() get called first before any other event handler in the react component.
+
+- `contains()` all DOM elements have this property. It enables you to determine whether one DOM element is contained inside another.
+
 `Event Bubbling`
-Event Bubbling is a concept in the DOM. It happens when an element receives an event, and that event bubbles up (or you can say is transmitted or propagated) to its parent and ancestor elements in the DOM tree until it gets to the root element.
+is a concept in the DOM. It happens when an element receives an event, and that event bubbles up to its parent and ancestor elements in the DOM tree until it gets to the root element.
 
 When you click on an element, for instance, it appears as though you have also clicked on the parent element all the way up to its root.
+
+`useRef`
+gives direct reference to a DOM element in React, instead of using the `document.getElementBy()` or `document.querySelector()`.
+
+`ref.current` provides access to the div element we are attempting to access
