@@ -56,7 +56,7 @@ useEffect callback function can return another function that is specifically use
 `DROPDOWN WIDGET`
 Shows list of options. When a user clicks on the dropdown, a few options will appear. The selected options recolor a text on the website so that it exactly matches the option's name in the list.
 
-`Lesson`
+`Lessons`
 - When an event handler is added to an element in a component, the component can only listen to events on that specific element. In this project, we're attempting to make the component listen to events in elements outside of it.
 
 - Event handlers using the native addEventListener() get called first before any other event handler in the react component.
@@ -78,3 +78,7 @@ gives direct reference to a DOM element in React, instead of using the `document
 
 
 `THE TRANSLATE WIDGET`
+Text is entered into the input field, a language is chosen from a drop-down menu, and the language is translated before being displayed on the screen.
+
+`Lessons`
+- How to reuse component (Dropdown) in React.
