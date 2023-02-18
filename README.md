@@ -82,3 +82,9 @@ Text is entered into the input field, a language is chosen from a drop-down menu
 
 `Lessons`
 - How to reuse component (Dropdown) in React.
+
+`The Convert Component`
+- Receives props i.e language and text
+- Makes API request to Google Translate API
+- Get response from Google API and update state
+- Show data on screen
