@@ -82,6 +82,7 @@ Text is entered into the input field, a language is chosen from a drop-down menu
 
 `Lessons`
 - How to reuse component (Dropdown) in React.
+- How to prevent every key press from making a request to the API (debouncing).
 
 `The Convert Component`
 - Receives props i.e language and text
