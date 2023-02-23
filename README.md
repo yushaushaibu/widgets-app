@@ -89,3 +89,15 @@ Text is entered into the input field, a language is chosen from a drop-down menu
 - Makes API request to Google Translate API
 - Get response from Google API and update state
 - Show data on screen
+
+
+`NAVIGATION`
+Showing different sets of components when the URL changes.
+
+`React Router` a popular and standard library that is use for implementing navigation in react.
+
+`How to determine what URL we are at`
+- Manually edit the URL to the current webpage (route).
+
+`window.location` a built-in object in the browser. It automatically updates anytime you navigate around to a different URL. `pathname` is a property in the window.location object. It is anything after the domain and the port. 
+Ex: `localhost:3000/translate`
