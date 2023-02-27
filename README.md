@@ -101,3 +101,6 @@ Showing different sets of components when the URL changes.
 
 `window.location` a built-in object in the browser. It automatically updates anytime you navigate around to a different URL. `pathname` is a property in the window.location object. It is anything after the domain and the port. 
 Ex: `localhost:3000/translate`
+
+`How to handle navigation without make full page reloading`
+The webpage completely refreshes when an user clicks the header's navigation link (reloading the HTML, CSS and JS document). It causes network traffic and poor performance. To prevent the website from reloading entirely but just change the URL. 
